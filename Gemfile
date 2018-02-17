@@ -28,12 +28,12 @@ group :development do
 end
 
 group :development do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.13'
 end
 
 group :production do 
   gem 'pg', '~> 1.0'
-  gem 'rails_12factor'
+  gem 'rails_12factor', '~> 0.0.3'
 end
 
 
